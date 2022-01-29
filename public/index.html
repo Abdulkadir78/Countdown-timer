@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown timer</title>
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container text-center mt-32">
+      <h1 class="text-white text-2xl uppercase tracking-widest">
+        We're launching soon
+      </h1>
+
+      <div class="mt-16 flex justify-center gap-3 md:gap-8">
+        <div>
+          <div
+            class="rounded-lg shadow-xl bg-secondaryDark w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 flex items-center justify-center relative"
+          >
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -left-2"
+            ></div>
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -right-2"
+            ></div>
+
+            <h1
+              id="days"
+              class="text-primary text-3xl sm:text-4xl md:text-6xl lg:text-7xl"
+            ></h1>
+          </div>
+          <h5
+            class="uppercase text-secondary mt-5 text-xs sm:text-sm lg:text-lg"
+          >
+            days
+          </h5>
+        </div>
+
+        <div>
+          <div
+            class="rounded-lg shadow-xl bg-secondaryDark w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 flex items-center justify-center relative"
+          >
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -left-2"
+            ></div>
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -right-2"
+            ></div>
+
+            <h1
+              id="hours"
+              class="text-primary text-3xl sm:text-4xl md:text-6xl lg:text-7xl"
+            ></h1>
+          </div>
+          <h5
+            class="uppercase text-secondary mt-5 text-xs sm:text-sm lg:text-lg"
+          >
+            hours
+          </h5>
+        </div>
+
+        <div>
+          <div
+            class="rounded-lg shadow-xl bg-secondaryDark w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 flex items-center justify-center relative"
+          >
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -left-2"
+            ></div>
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -right-2"
+            ></div>
+
+            <h1
+              id="minutes"
+              class="text-primary text-3xl sm:text-4xl md:text-6xl lg:text-7xl"
+            ></h1>
+          </div>
+          <h5
+            class="uppercase text-secondary mt-5 text-xs sm:text-sm lg:text-lg"
+          >
+            minutes
+          </h5>
+        </div>
+
+        <div>
+          <div
+            class="rounded-lg shadow-xl bg-secondaryDark w-20 h-20 md:w-32 md:h-32 lg:w-40 lg:h-40 flex items-center justify-center relative"
+          >
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -left-2"
+            ></div>
+            <div
+              class="bg-veryDarkBlue w-3 h-3 rounded-lg absolute -right-2"
+            ></div>
+
+            <h1
+              id="seconds"
+              class="text-primary text-3xl sm:text-4xl md:text-6xl lg:text-7xl"
+            ></h1>
+          </div>
+          <h5
+            class="uppercase text-secondary mt-5 text-xs sm:text-sm lg:text-lg"
+          >
+            seconds
+          </h5>
+        </div>
+      </div>
+
+      <img
+        src="assets/images/pattern-hills.svg"
+        alt="hills"
+        class="absolute left-0 right-0 bottom-0 w-full h-40 xl:h-52"
+      />
+
+      <div
+        class="flex justify-center gap-x-10 absolute left-[50%] bottom-[8%] xl:bottom-[10%] translate-x-[-50%]"
+      >
+        <i
+          class="fab fa-facebook-square fa-2x text-secondary cursor-pointer hover:text-primary transition-all duration-300"
+        ></i>
+        <i
+          class="fab fa-pinterest fa-2x text-secondary cursor-pointer hover:text-primary transition-all duration-300"
+        ></i>
+        <i
+          class="fab fa-instagram fa-2x text-secondary cursor-pointer hover:text-primary transition-all duration-300"
+        ></i>
+      </div>
+    </div>
+  </body>
+</html>
