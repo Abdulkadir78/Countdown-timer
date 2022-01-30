@@ -18,6 +18,7 @@ module.exports = {
       veryDarkBlue: "hsl(234, 17%, 12%)",
     },
     container: {
+      center: true,
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",

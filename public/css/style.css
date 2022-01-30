@@ -472,6 +472,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .container{
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 1rem;
   padding-left: 1rem;
 }
